@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media (min-width: 768px) {
+  .content-form, .container-md {
+      max-width: 420px !important; /* Custom size for medium screens and up */
+  }
+
+  /* Optional: You can add custom container size for smaller screens as well */
+  .container-sm {
+      max-width: 100% !important; /* Full-width container for smaller screens */
+  }
+}
